@@ -3,7 +3,7 @@
 // TODO: put in function
 //def createPipelinesWithinDir(dir)
 
-def projectDir = 'pipeline/'
+def projectDir = 'thesis-jobDSL/pipeline/'
 File dir = new File("${WORKSPACE}/${projectDir}")
 
 dir.eachFile { pipeline ->
